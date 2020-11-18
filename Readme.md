@@ -17,5 +17,11 @@ When there is a single input variable (x), the method is referred to as *simple 
 
 - Four techniques to prepare a linear regression mode :-
 1. Simple Linear Regression
-  > With simple linear regression when we have a single input, we can use statistics to estimate the coefficients.
-  > This requires that you calculate statistical properties from the data such as means, standard deviations, correlations and covariance. All of the data must be available to       > traverse and calculate statistics.
+  > With *simple linear regression* when we have a single input, we can use statistics to estimate the coefficients.
+  > This requires that you calculate statistical properties from the data such as **means, standard deviations, correlations and covariance**. All of the data must be available to     traverse and calculate statistics.
+2. Ordinary Least Squares
+  >  Used when we have more then one input.
+  >  Given a regression line through the data we calculate the distance from each data point to the regression line, square it, and sum all of the squared errors together. This is      the least squares seeks to minimize.
+
+3. Gradient Descent
+   > ![image](http://rasbt.github.io/mlxtend/user_guide/general_concepts/gradient-optimization_files/ball.png)

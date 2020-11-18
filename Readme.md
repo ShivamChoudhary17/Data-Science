@@ -32,3 +32,10 @@ When there is a single input variable (x), the method is referred to as *simple 
 
 3. Gradient Descent
    > ![image](http://rasbt.github.io/mlxtend/user_guide/general_concepts/gradient-optimization_files/ball.png)
+   > A learning rate is used as a scale factor and the coefficients are updated in the direction towards minimizing the error. The process is repeated until a minimum sum            squared error is achieved or no further improvement is possible.
+   
+   4. Regularization
+      > ![](fromthegenesis.com/wp-content/uploads/2018/06/Regularization.jpg)
+      > **Regularization:** Regularization is a common way of controlling or reducing the problem of overfitting in a flexible and tunable manner. Problem of overfitting is the         result of model trying to capture noises with in the data.
+      
+      > ![](https://fromthegenesis.com/wp-content/uploads/2018/06/Regularization.jpg)

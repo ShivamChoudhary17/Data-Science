@@ -1,4 +1,3 @@
-# 
-Linear Regression :-
+# Linear Regression :-
 
 

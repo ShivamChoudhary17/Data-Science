@@ -17,6 +17,7 @@ When there is a single input variable (x), the method is referred to as *simple 
 
 - Four techniques to prepare a linear regression mode :-
 1. Simple Linear Regression
+   ![image](https://miro.medium.com/max/1163/1*Nf2tTTkALYq6RTMQmhjo1A.png)
   > With *simple linear regression* when we have a single input, we can use statistics to estimate the coefficients.
   > This requires that you calculate statistical properties from the data such as **means, standard deviations, correlations and covariance**. All of the data must be available to     traverse and calculate statistics.
 2. Ordinary Least Squares

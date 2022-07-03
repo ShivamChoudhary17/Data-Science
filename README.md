@@ -1,25 +1,42 @@
-# Data-Science_ML
+# Linear Regression :-
 
+In statistics, linear regression is a linear approach to modelling the relationship between a dependent variable and one or more independent variables. It is both a statistical algorithm and a machine learning algorithm.
 
-> - _______________________________________________________________________________________________________________________________________________________________________________
+When there is a single input variable (x), the method is referred to as *simple linear regression*. When there are multiple input variables, literature from statistics often refers to the method as *multiple linear regression*.
 
-> - #### Importing's 
+**Simple linear regression** :
+1 dependent variable (interval or ratio), 1 independent variable (interval or ratio or dichotomous).
 
-1. import pandas as pd
-2. from sklearn.linear_model import LogisticRegression
-3. from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
-4. from sklearn.model_selection import KFold, GridSearchCV
-5. import numpy as np 
-6. from sklearn.model_selection import train_test_split
-7. from sklearn.ensemble import RandomForestClassifier
-8. from collections import Counter
-9. from imblearn.over_sampling import RandomOverSampler
-10. from imblearn.combine import SMOTETomek
-11. from imblearn.ensemble import EasyEnsembleClassifier
+**Multiple linear regression** :
+1 dependent variable (interval or ratio) , 2+ independent variables (interval or ratio or dichotomous).
 
-> - ____________________________________________________________________________________________________________________________________________________________________________
+**Logistic regression** :
+1 dependent variable (dichotomous), 2+ independent variable(s) (interval or ratio or dichotomous).
 
+**Note-** Ordinary Least Squares and Gradient Descent are two common. 
 
- - ### covid-19
+- Four techniques to prepare a linear regression mode :-
+1. Simple Linear Regression
 
-![Image](https://camo.githubusercontent.com/8d2da79276d6feb6ba5cc87da894fca8a98b1a5a/68747470733a2f2f696d2e657a6769662e636f6d2f746d702f657a6769662d312d3932666161383539616366342e676966)
+   ![image](https://miro.medium.com/max/1163/1*Nf2tTTkALYq6RTMQmhjo1A.png)
+   
+  > With *simple linear regression* when we have a single input, we can use statistics to estimate the coefficients.
+  > This requires that you calculate statistical properties from the data such as **means, standard deviations, correlations and covariance**. All of the data must be available     to traverse and calculate statistics.
+  
+2. Ordinary Least Squares
+
+   ![image](https://i1.wp.com/statisticsbyjim.com/wp-content/uploads/2017/04/residuals.png?resize=300%2C186&ssl=1)
+   
+  >  Used when we have more then one input.
+  >  Given a regression line through the data we calculate the distance from each data point to the regression line, square it, and sum all of the squared errors together. This is      the least squares seeks to minimize.
+
+3. Gradient Descent
+   > ![image](http://rasbt.github.io/mlxtend/user_guide/general_concepts/gradient-optimization_files/ball.png)
+   > A learning rate is used as a scale factor and the coefficients are updated in the direction towards minimizing the error. The process is repeated until a minimum sum            squared error is achieved or no further improvement is possible.
+   
+   4. Regularization
+      > ![cd](https://www.fromthegenesis.com/wp-content/uploads/2018/06/Regularization.jpg)
+      
+      > **Regularization:** Regularization is a common way of controlling or reducing the problem of overfitting in a flexible and tunable manner. Problem of overfitting is the         result of model trying to capture noises with in the data.
+      
+      > ![kx](https://fromthegenesis.com/wp-content/uploads/2018/06/REGU2.png)
